@@ -1,7 +1,7 @@
 package br.com.alura.curso.exceptions;
 
 public class DivisaoPorZeroException extends RuntimeException {
-	String msg;
+	private String msg;
 	
 	public DivisaoPorZeroException(String msg) {
 		this.msg = msg;
